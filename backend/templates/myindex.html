@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+      <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartPet</title>
+	<!-- Bootstrap Styles-->
+    <link href="{{url_for('static',filename='css/bootstrap.css')}}" rel="stylesheet" />
+     <!-- FontAwesome Styles-->
+    <link href="{{url_for('static',filename='css/font-awesome.css')}}" rel="stylesheet" />
+<!-- Morris Chart Styles-->
+    <link href="{{url_for('static',filename='js/morris/morris-0.4.3.min.css')}}" rel="stylesheet" />
+        <!-- Custom Styles-->
+    <link href="{{url_for('static',filename='css/custom-styles.css')}}" rel="stylesheet" />
+     <!-- Google Fonts-->
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+</head>
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-default top-navbar" role="navigation">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="{{url_for('index')}}"><i class="fa fa-comments"></i> <strong>SMARTPET </strong></a>
+		<span id="alert" style="color:red;text-align:center;text-indent:50px;font:40px arial,sans-serif;"></span>
+            </div>
+
+          </nav>
+        <!--/. NAV TOP  -->
+
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+
+                   <li>
+                        <a href="{{url_for('index')}}" class="active-menu"><i class="fa fa-bar-chart-o"></i> Index</a>
+                    </li>
+                    <li>
+                        <a href="{{url_for('get_history')}}"><i class="fa fa-table"></i> History</a>
+                    </li>
+                    
+                    <li>
+                        <a href="{{url_for('app_settings')}}"><i class="fa fa-edit"></i> Settings</a>
+                    </li>
+                 
+                </ul>
+
+            </div>
+
+        </nav>
+        <!-- /. NAV SIDE  -->
+
+        <div id="page-wrapper" >
+            <div id="page-inner">
+			 <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="page-header">
+                            STATS
+                        </h1>
+                    </div>
+                </div> 
+                 <!-- /. ROW  -->
+             
+                <div class="row"> 
+                    
+                      
+                               <div class="col-md-6 col-sm-12 col-xs-12">                     
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            WEIGHT
+                        </div>
+                        <div class="panel-body">
+                            <div id="weight" style="height:500px;width:auto;border:1px solid #ccc;padding:10px;"></div>
+                        </div>
+                    </div>            
+                </div>
+                      <div class="col-md-6 col-sm-12 col-xs-12">                     
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                           STORAGE
+                        </div>
+                        <div class="panel-body">
+                            <div id="storage" style="height:500px;width:auto;border:1px solid #ccc;padding:10px;"></div>
+                        </div>
+                    </div>            
+                </div> 
+                
+           </div>
+                
+             <!-- /. PAGE INNER  -->
+            </div>
+         <!-- /. PAGE WRAPPER  -->
+        </div>
+     <!-- /. WRAPPER  -->
+    <!-- JS Scripts-->
+    <!-- jQuery Js -->
+    <script src="{{url_for('static',filename='js/jquery-1.10.2.js')}}"></script>
+	<!-- jQuery Cookie Js -->
+	<script src="https://cdn.bootcdn.net/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+      <!-- Bootstrap Js -->
+    <script src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
+    <!-- Metis Menu Js -->
+    <script src="{{url_for('static',filename='js/jquery.metisMenu.js')}}"></script>
+     <!-- Morris Chart Js -->
+     <script src="{{url_for('static',filename='js/morris/raphael-2.1.0.min.js')}}"></script>
+    <script src="{{url_for('static',filename='js/morris/morris.js')}}"></script>
+     <!-- ECharts Js -->
+     <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.1.1/echarts.min.js"></script>
+     <!-- socketio Js -->
+    <script type="text/javascript" src="https://cdn.bootcdn.net/ajax/libs/socket.io/3.1.1/socket.io.min.js"></script>
+      <!-- Custom Js -->
+	<script type="text/javascript">
+     
+    var WeightChart = echarts.init(document.getElementById('weight'));
+ 
+    WeightChart.setOption({
+        title: {
+            text: 'WEIGHT'
+        },
+        tooltip: {},
+        legend: {
+            data:['weight_now']
+        },
+        xAxis: {
+            data: []
+        },
+        yAxis: {},
+        series: [{
+            name: 'weight_now',
+            type: 'line',
+            data: []
+        }]
+    });
+    var StorageChart = echarts.init(document.getElementById('storage'));
+ 
+    StorageChart.setOption({
+        title: {
+            text: 'STORAGE'
+        },
+        tooltip: {},
+        legend: {
+            data:['storage_now']
+        },
+        xAxis: {
+            data: []
+        },
+        yAxis: {},
+        series: [{
+            name: 'storage_now',
+            type: 'line',
+            data: []
+        }]
+    });
+ 
+    var time = ["","","","","","","","","",""],
+        weight = [0,0,0,0,0,0,0,0,0,0],
+	storage = [0,0,0,0,0,0,0,0,0,0]
+ 
+ 
+    //准备好统一的 callback 函数
+    var update_mychart = function (res) {
+    //res是json格式的response对象
+ 
+        // 隐藏加载动画
+        WeightChart.hideLoading();
+ 	StorageChart.hideLoading();
+ 
+        // 准备数据
+        time.push(res.time);
+        weight.push(parseFloat(res.weight));
+	storage.push(parseFloat(res.storage));
+        if (time.length >= 10){
+            time.shift();
+            weight.shift();
+	    storage.shift();
+        }
+
+
+        // 填入数据
+       WeightChart.setOption({
+            xAxis: {
+                data: time
+            },
+            series: [{
+                name: 'weight_now', // 根据名字对应到相应的系列
+                data: weight
+            }]
+        });
+ 	StorageChart.setOption({
+            xAxis: {
+                data: time
+            },
+            series: [{
+                name: 'storage_now', // 根据名字对应到相应的系列
+                data: storage
+            }]
+        });
+    };
+ 
+    // 首次显示加载动画
+    WeightChart.showLoading();
+    StorageChart.showLoading();
+ 
+    setTimeout(function(){
+	window.onresize = function () {
+		WeightChart.resize();
+		StorageChart.resize();
+	}
+},200) 
+
+    // 建立socket连接，等待服务器“推送”数据，用回调函数更新图表
+    $(document).ready(function() {
+	namespace = '/data';
+        var socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port + namespace);
+ 
+        socket.on('B2F_report', function(res) {
+            update_mychart(res);
+        });
+ 	socket.on('B2F_storage_empty', function(res) {
+            document.getElementById("alert").innerHTML="Storage is almost empty!Fill it up as soon as possible.";
+        });
+	
+    });
+   </script>
+
+</body>
+</html>

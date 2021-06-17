@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+      <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartPet</title>
+	<!-- Bootstrap Styles-->
+    <link href="{{url_for('static',filename='css/bootstrap.css')}}" rel="stylesheet" />
+     <!-- FontAwesome Styles-->
+    <link href="{{url_for('static',filename='css/font-awesome.css')}}" rel="stylesheet" />
+<!-- Morris Chart Styles-->
+    <link href="{{url_for('static',filename='js/morris/morris-0.4.3.min.css')}}" rel="stylesheet" />
+        <!-- Custom Styles-->
+    <link href="{{url_for('static',filename='css/custom-styles.css')}}" rel="stylesheet" />
+     <!-- Google Fonts-->
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+</head>
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-default top-navbar" role="navigation">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="{{url_for('index')}}"><i class="fa fa-comments"></i> <strong>SMARTPET </strong></a>
+		<span id="alert" style="color:red;text-align:center;text-indent:50px;font:40px arial,sans-serif;"></span>
+            </div>
+
+          </nav>
+        <!--/. NAV TOP  -->
+
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+
+                   <li>
+                        <a href="{{url_for('index')}}" ><i class="fa fa-bar-chart-o"></i> Index</a>
+                    </li>
+                    <li>
+                        <a href="{{url_for('get_history')}}" class="active-menu"><i class="fa fa-table"></i> History</a>
+                    </li>
+                    
+                    <li>
+                        <a href="{{url_for('app_settings')}}"><i class="fa fa-edit"></i> Settings</a>
+                    </li>
+                 
+                </ul>
+
+            </div>
+
+        </nav>
+        <!-- /. NAV SIDE  -->
+
+        <div id="page-wrapper" >
+            <div id="page-inner">
+			 <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="page-header">
+                            HISTORY
+                        </h1>
+                    </div>
+                </div> 
+                 <!-- /. ROW  -->
+             
+                <div class="row"> 
+                    
+                      
+                               <div class="col-md-6 col-sm-12 col-xs-12">                     
+                    <div class="panel panel-default"  style="height:auto;width:1500px;">
+                        <div class="panel-heading">
+                                   </div>
+                        <div class="panel-body">
+                            <div id="weight" style="height:auto;width:1300px;border:1px solid #ccc;padding:10px;">
+				<table border="1" style="height:auto;width:1200px;text-align:center">
+				<tr>
+				<th>quantity</th>
+				<th>measure_time</th>
+				</tr>
+					<tbody id="tbody1"></tbody>
+				</table>
+				</div>
+                        </div>
+                    </div>            
+                </div>
+                      
+                
+           </div>
+                
+             <!-- /. PAGE INNER  -->
+            </div>
+         <!-- /. PAGE WRAPPER  -->
+        </div>
+     <!-- /. WRAPPER  -->
+    <!-- JS Scripts-->
+    <!-- jQuery Js -->
+    <script src="{{url_for('static',filename='js/jquery-1.10.2.js')}}"></script>
+      <!-- Bootstrap Js -->
+    <script src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
+    <!-- Metis Menu Js -->
+    <script src="{{url_for('static',filename='js/jquery.metisMenu.js')}}"></script>
+     <!-- Morris Chart Js -->
+     <script src="{{url_for('static',filename='js/morris/raphael-2.1.0.min.js')}}"></script>
+    <script src="{{url_for('static',filename='js/morris/morris.js')}}"></script>
+     <!-- ECharts Js -->
+     <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.1.1/echarts.min.js"></script>
+     <!-- socketio Js -->
+    <script type="text/javascript" src="https://cdn.bootcdn.net/ajax/libs/socket.io/3.1.1/socket.io.min.js"></script>
+      <!-- Custom Js -->
+	<script>
+	var createTable = function(data){
+	var tableData="";
+	for(var i=data.quantity.length-1;i>data.quantity.length-30;i--){
+		tableData+="<tr>";
+		tableData+="<td>"+data.quantity[i]+"</td>";
+		tableData+="<td>"+data.measure_time[i]+"</td>";
+		tableData+="</tr>";
+	}
+	
+	$("#tbody1").html(tableData)
+	};
+	
+	 // 建立socket连接，等待服务器“推送”数据，用回调函数更新图表
+    $(document).ready(function() {
+	namespace = '/data';
+        var socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port + namespace);
+ 
+        socket.on('B2F_history', function(res) {
+            createTable(res);
+        });
+ 	socket.on('B2F_storage_empty', function(res) {
+            document.getElementById("alert").innerHTML="Storage is almost empty!Fill it up as soon as possible.";
+        });
+	
+    });
+	
+    
+
+   </script>
+
+</body>
+</html>
