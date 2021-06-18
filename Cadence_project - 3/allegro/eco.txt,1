@@ -1,0 +1,250 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  dog2.brd                                                                    |
+|                                                    Tue May 25 01:12:21 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  3.3V         pins ADDED TO this new net
+                                 Q3.1           R9.1           R10.1          
+                                 U1.1           U1.17          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  5V           pins ADDED TO this new net
+                                 U1.2           U1.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 C1.1           D1.2           D2.2           
+                                 D3.2           D4.2           Q4.1           
+                                 R2.2           R8.2           R11.1          
+                                 R13.2          U1.6           U1.9           
+                                 U1.14          U1.20          U1.25          
+                                 U1.30          U1.34          U1.39          
+                                 U2.1           U2.5           U2.16          
+                                 U4.1           U6.4           U7.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO2        pins ADDED TO this new net
+                                 U1.3           U6.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO3        pins ADDED TO this new net
+                                 R7.2           U1.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO4        pins ADDED TO this new net
+                                 R3.1           U1.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO5        pins ADDED TO this new net
+                                 U1.29          U4.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO6        pins ADDED TO this new net
+                                 U1.31          U4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO8        pins ADDED TO this new net
+                                 U1.24          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO9        pins ADDED TO this new net
+                                 U1.21          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO10       pins ADDED TO this new net
+                                 U1.19          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO11       pins ADDED TO this new net
+                                 U1.23          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO12       pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  dog2.brd                                                                    |
+|                                                    Tue May 25 01:12:21 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 U1.32          U2.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO13       pins ADDED TO this new net
+                                 U1.33          U2.14          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO16       pins ADDED TO this new net
+                                 U1.36          U2.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO17       pins ADDED TO this new net
+                                 R4.1           U1.11          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO18       pins ADDED TO this new net
+                                 U1.12          U2.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO19       pins ADDED TO this new net
+                                 U1.35          U2.13          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO20       pins ADDED TO this new net
+                                 U1.38          U2.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO21       pins ADDED TO this new net
+                                 U1.40          U7.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO22       pins ADDED TO this new net
+                                 R2.1           U1.15          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO23       pins ADDED TO this new net
+                                 U1.16          U2.11          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO24       pins ADDED TO this new net
+                                 U1.18          U2.10          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO25       pins ADDED TO this new net
+                                 U1.22          U2.9           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO26       pins ADDED TO this new net
+                                 U1.37          U2.12          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO27       pins ADDED TO this new net
+                                 R5.1           U1.13          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02805       pins ADDED TO this new net
+                                 D1.1           R3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02809       pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  dog2.brd                                                                    |
+|                                                    Tue May 25 01:12:21 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 D2.1           R4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02813       pins ADDED TO this new net
+                                 D3.1           R5.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03512       pins ADDED TO this new net
+                                 R7.1           R8.1           U6.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16896       pins ADDED TO this new net
+                                 C1.2           Q4.2           R9.2           
+                                 R11.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16900       pins ADDED TO this new net
+                                 Q3.2           Q4.3           R10.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17024       pins ADDED TO this new net
+                                 D4.1           Q3.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC          pins ADDED TO this new net
+                                 R12.1          U2.2           U2.15          
+                                 U4.4           U6.1           U7.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VO           pins ADDED TO this new net
+                                 R12.2          R13.1          U2.3           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  dog2.brd                                                                    |
+|                                                    Tue May 25 01:12:21 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 1N4376_LED_3MM_ROLA_1N4376
+ C_C0805_ROLA_1U
+ HC-SR04_SIP4_HC-SR04
+ HX711_SIP4_HX711
+ LCD_SIP16_LCD
+ LED_LED_3MM_ROLA_LED
+ RASPBERRY_WALCON100VHTM2OESW325
+ R_AXRCR05_{R3}
+ R_JX_R0805_1.5K
+ R_JX_R0805_1K
+ R_JX_R0805_10K
+ R_JX_R0805_100K
+ R_JX_R0805_680
+ SERVO_SIP3_SERVO
+ TN2219A_TO92B_ROLA_TN2219A
+ TN4037_TO92B_ROLA_TN4037
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  dog2.brd                                                                    |
+|                                                    Tue May 25 01:12:21 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  C_C0805_ROLA_1U       
+ D1                  LED_LED_3MM_ROLA_LED  
+ D2                  LED_LED_3MM_ROLA_LED  
+ D3                  LED_LED_3MM_ROLA_LED  
+ D4                  1N4376_LED_3MM_ROLA_1N4376 
+ Q3                  TN4037_TO92B_ROLA_TN4037 
+ Q4                  TN2219A_TO92B_ROLA_TN2219A 
+ R2                  R_JX_R0805_10K        
+ R3                  R_JX_R0805_1K         
+ R4                  R_JX_R0805_1K         
+ R5                  R_JX_R0805_1K         
+ R7                  R_JX_R0805_680        
+ R8                  R_JX_R0805_1.5K       
+ R9                  R_JX_R0805_100K       
+ R10                 R_JX_R0805_10K        
+ R11                 R_AXRCR05_{R3}        
+ R12                 R_JX_R0805_1K         
+ R13                 R_JX_R0805_1K         
+ U1                  RASPBERRY_WALCON100VHTM2OESW325 
+ U2                  LCD_SIP16_LCD         
+ U4                  HX711_SIP4_HX711      
+ U6                  HC-SR04_SIP4_HC-SR04  
+ U7                  SERVO_SIP3_SERVO      
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  dog2.brd                                                                    |
+|                                                    Tue May 25 01:12:21 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ D1.2                           PRIM_FILE      .\pstchip.dat
+ D2.2                           PRIM_FILE      .\pstchip.dat
+ D3.2                           PRIM_FILE      .\pstchip.dat
+ D4.2                           PRIM_FILE      .\pstchip.dat
+ Q3.1                           PRIM_FILE      .\pstchip.dat
+ Q4.1                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ R10.2                          PRIM_FILE      .\pstchip.dat
+ R11.2                          PRIM_FILE      .\pstchip.dat
+ R12.2                          PRIM_FILE      .\pstchip.dat
+ R13.2                          PRIM_FILE      .\pstchip.dat
+ U1.27                          PRIM_FILE      .\pstchip.dat
+ U2.1                           PRIM_FILE      .\pstchip.dat
+ U4.4                           PRIM_FILE      .\pstchip.dat
+ U6.1                           PRIM_FILE      .\pstchip.dat
+ U7.1                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :     100                                        |
+|       Comp definitions added:      16                                        |
+|       Components added      :      23                                        |
+|       Slot property added   :      23                                        |
+|                                                                              |
+|   Total ECO changes reported:     162                                        |
+|------------------------------------------------------------------------------|

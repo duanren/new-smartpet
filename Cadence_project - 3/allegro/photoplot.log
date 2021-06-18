@@ -1,0 +1,273 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : dog2.brd                                      )
+(    Software Version : 17.2S012                                      )
+(    Date/Time        : Tue May 25 20:57:31 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+
+ Can't open parameter file ... using default values:
+     DEVICE-TYPE        GERBER6X00
+     G-CODES            NO
+     STATIONS-PER-WHEEL 24
+     FILM-SIZE          24000 16000
+     COORDINATES        ABSOLUTE
+     OUTPUT-UNITS       INCHES
+     FORMAT             5.3
+     ABORT-ON-ERROR     abort film & continue
+     SUPPRESS-LEAD-ZEROES     YES
+     SUPPRESS-TRAIL-ZEROES    NO
+     OPTIMIZE           YES
+     SUPPRESS-EQUAL     YES
+     SCALE              1.0
+
+
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < E:/Cadence_project - 3/allegro/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                2.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00200                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.04500                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  CIRCLE     0.06200                                  DARK 
+  SQUARE     0.06000                     0.000 NO     DARK 
+  SQUARE     0.06200                     0.000 NO     DARK 
+  RECTANGLE  0.05500     x 0.05200       0.000 NO     DARK 
+
+     TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < E:/Cadence_project - 3/allegro/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                2.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00200                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.04500                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  CIRCLE     0.06200                                  DARK 
+  SQUARE     0.06000                     0.000 NO     DARK 
+  SQUARE     0.06200                     0.000 NO     DARK 
+
+     BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < Soldermask_Top >
+     TO FILE < E:/Cadence_project - 3/allegro/Soldermask_Top.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                2.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.04500                                  DARK 
+  CIRCLE     0.06200                                  DARK 
+  CIRCLE     0.06400                                  DARK 
+  CIRCLE     0.07500                                  DARK 
+  SQUARE     0.06200                     0.000 NO     DARK 
+  SQUARE     0.06400                     0.000 NO     DARK 
+  SQUARE     0.07500                     0.000 NO     DARK 
+  RECTANGLE  0.05900     x 0.05600       0.000 NO     DARK 
+
+     Soldermask_Top created with warnings
+
+
+================================================================
+     PROCESSING FILM < Soldermask_Bottom >
+     TO FILE < E:/Cadence_project - 3/allegro/Soldermask_Bottom.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                2.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.04500                                  DARK 
+  CIRCLE     0.06200                                  DARK 
+  CIRCLE     0.06400                                  DARK 
+  CIRCLE     0.07500                                  DARK 
+  SQUARE     0.06200                     0.000 NO     DARK 
+  SQUARE     0.06400                     0.000 NO     DARK 
+  SQUARE     0.07500                     0.000 NO     DARK 
+
+     Soldermask_Bottom created with warnings
+
+
+================================================================
+     PROCESSING FILM < Silkscreen_Top >
+     TO FILE < E:/Cadence_project - 3/allegro/Silkscreen_Top.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                2.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: 0 width line found at (594.290 1836.020)
+           ... using undefined line width of 2.000
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 2.000
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00200                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00700                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+
+     Silkscreen_Top created with warnings
+
+
+================================================================
+     PROCESSING FILM < Silkscreen_Bottom.art >
+     TO FILE < E:/Cadence_project - 3/allegro/Silkscreen_Bottom.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                2.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:  NONE
+     Silkscreen_Bottom.art created with warnings
+
+
+================================================================
+     PROCESSING FILM < Drill >
+     TO FILE < E:/Cadence_project - 3/allegro/Drill.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                2.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: text composed 0 width line found at (-1597.740 -963.090)
+           ... using undefined line width of 2.000
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 2.000
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00200                                  DARK 
+
+     Drill created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created with warnings
+        BOTTOM created with warnings
+        Soldermask_Top created with warnings
+        Soldermask_Bottom created with warnings
+        Silkscreen_Top created with warnings
+        Silkscreen_Bottom.art created with warnings
+        Drill created with warnings
+
+ ARTWORK had warnings

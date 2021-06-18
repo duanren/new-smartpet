@@ -1,0 +1,240 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001May-25-2021 at 01:36:39 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='20210525';
+ POST_TIME='Jan  9 2017 17:57:56';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C_C0805_ROLA_1U':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS17467@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins17467@analog.\c.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins17467@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_LED_3MM_ROLA_LED':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS2757@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins2757@discrete.\led.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins2757@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'LED_LED_3MM_ROLA_LED':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS2773@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins2773@discrete.\led.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins2773@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'LED_LED_3MM_ROLA_LED':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS2789@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins2789@discrete.\led.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins2789@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D4 '1N4376_LED_3MM_ROLA_1N4376':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS17098@DIODE.1N4376.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins17098@diode.\1n4376.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins17098@diode.\1n4376.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q3 'TN4037_TO92B_ROLA_TN4037':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS16926@BIPOLAR.TN4037.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins16926@bipolar.\tn4037.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins16926@bipolar.\tn4037.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q4 'TN2219A_TO92B_ROLA_TN2219A':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS16988@BIPOLAR.TN2219A.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins16988@bipolar.\tn2219a.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins16988@bipolar.\tn2219a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'R_JX_R0805_10K':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS16874@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins16874@discrete.\r.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins16874@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'R_AXRCR05_{R3}':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS17118@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins17118@analog.\r.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins17118@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'R_JX_R0805_1K':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS19551@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins19551@analog.\r.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins19551@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'R_JX_R0805_1K':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS19627@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins19627@analog.\r.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins19627@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_JX_R0805_10K':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS2633@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins2633@analog.\r.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins2633@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_JX_R0805_1K':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS2682@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins2682@analog.\r.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins2682@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_JX_R0805_1K':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS2698@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins2698@analog.\r.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins2698@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_JX_R0805_1K':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS2714@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins2714@analog.\r.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins2714@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_JX_R0805_680':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS3525@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins3525@analog.\r.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins3525@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_JX_R0805_1.5K':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS3576@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins3576@analog.\r.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins3576@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'R_JX_R0805_100K':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS16854@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins16854@discrete.\r.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins16854@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'RASPBERRY_MY_WALCON100VHTM2OESW':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS291@RASPBERRY.RASPBERRY.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins291@raspberry.\raspberry.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins291@raspberry.\raspberry.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'LCD_SIP16_LCD':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS19951@LCD.LCD.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins19951@lcd.\lcd.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins19951@lcd.\lcd.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'HX711_SIP4_HX711':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS20283@RASPBERRY.HX711.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins20283@raspberry.\hx711.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins20283@raspberry.\hx711.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U6 'HC-SR04_SIP4_HC-SR04':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS3367@RASPBERRY.HC-SR04.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins3367@raspberry.\hc-sr04.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins3367@raspberry.\hc-sr04.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U7 'SERVO_SIP3_SERVO':;
+
+SECTION_NUMBER 1
+ '@20210525.SCHEMATIC1(SCH_1):INS22554@RASPBERRY.SERVO.NORMAL(CHIPS)':
+ C_PATH='@\20210525\.schematic1(sch_1):ins22554@raspberry.\servo.normal\(chips)',
+ P_PATH='@\20210525\.schematic1(sch_1):page1_ins22554@raspberry.\servo.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

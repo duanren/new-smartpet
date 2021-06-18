@@ -1,0 +1,22 @@
+\t (00:00:04) allegro 17.2 S012 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Mon Jun 07 19:09:49 2021
+\t (00:00:04)         Host=DESKTOP-972BFPO User=¿Ó»Û≈Û Pid=16356 CPUs=4
+\t (00:00:04) CmdLine= E:\Cadence\tools\bin\allegro.exe
+\t (00:00:04) 
+   (00:00:04) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\d (00:00:05) Design opened: E:/Cadence_project - 3/allegro/dog2.brd
+\i (00:00:05) trapsize 1254
+\i (00:00:05) trapsize 1285
+\i (00:00:05) trapsize 1388
+\i (00:00:06) trapsize 1499
+\t (00:00:06) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
+\i (00:00:06) trapsize 19025
+\i (00:00:06) generaledit 
+\i (00:07:12) open 
+\i (00:07:19) fillin "E:\Cadence_project - 4\allegro\dog2.brd"
+\i (00:07:19) cd "E:\Cadence_project - 4\allegro"
+\t (00:07:19) Opening existing design...
+\t (00:07:19) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
+\i (00:07:19) trapsize 1388
+\t (00:07:20)     Journal end - Mon Jun 07 19:17:04 2021

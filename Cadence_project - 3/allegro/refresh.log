@@ -1,0 +1,98 @@
+Tue May 25 19:49:49 2021				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Tue May 25 19:49:49 2021
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : dog2.brd                                      )
+(    Software Version : 17.2S012                                      )
+(    Date/Time        : Tue May 25 19:49:51 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Tue May 25 19:49:51 2021				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'E:/Cadence_project - 3/allegro/dog2.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'NO'
+Update shape/flash symbols             = 'NO'
+Update symbol padstacks                = 'YES'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'NO'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+Symbol list file                       = 'C:/Users/LRP/AppData/Local/Temp/#Taaaaaf16352.tmp'
+
+
+------ Library Paths ------
+PSMPATH =  E:/demo/_prj_pcb_demo_2021/lib_footprint/ 
+           E:/demo/_prj_pcb_demo_2021/ 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           E:/Cadence/share/local/pcb/symbols 
+           E:/Cadence/share/pcb/pcb_lib/symbols 
+           E:/Cadence/share/pcb/allegrolib/symbols 
+           E:/Demo_5V/allegro/ 
+           E:/Cadence/tools/capture/ 
+           E:/Cadence_project - 2/2021eedesign_PCB/2021eedesign/library/rola_pcb_lib/ 
+           E:/Cadence_project - 2/allegro/ 
+           E:/Cadence_project - 2/lib_footprint/ 
+           E:/Cadence_project - 2/usb_jtag_xilinx/jtag_footprint_lib/ 
+
+PADPATH =  E:/Cadence/tools/capture/ 
+           E:/demo/_prj_pcb_demo_2021/lib_footprint/ 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           E:/Cadence/share/local/pcb/padstacks 
+           E:/Cadence/share/pcb/pcb_lib/symbols 
+           E:/Cadence/share/pcb/allegrolib/symbols 
+           E:/Demo_5V/allegro/ 
+           E:/demo/ 
+           E:/demo/_prj_pcb_demo_2021/lib_3D_step/ 
+           E:/Cadence_project - 2/2021eedesign_PCB/2021eedesign/library/rola_pcb_lib/ 
+           E:/Cadence_project - 2/allegro/ 
+           E:/Cadence_project - 2/lib_footprint/ 
+           E:/Cadence_project - 2/usb_jtag_xilinx/jtag_footprint_lib/ 
+
+
+------ Symbol Refresh Messages ------
+
+'SIP16'  symbol refreshed successfully.
+
+
+------ Pad Stack Refresh Messages ------
+
+'MY60S85C35D'  pad stack refreshed successfully.
+'MY60C85C35D'  pad stack refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 1 out 1
+    Design updated.
+
